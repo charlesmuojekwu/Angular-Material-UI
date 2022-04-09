@@ -3,6 +3,10 @@
 
 @import "@angular/material/prebuilt-themes/indigo-pink.css";
 
+// ADDED using mixings css style for global dialog size in mobile
+@import "./mixins";
+@include responsive-dialogs();
+
 .highlight-date {
     background: red;
     color: #fff;
